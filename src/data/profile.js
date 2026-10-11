@@ -70,6 +70,14 @@ export const skills = [
 // Add a new object here whenever a project is deployed.
 export const projects = [
   {
+    title: 'PayFlow — Digital Wallet',
+    description:
+      'Full stack fintech app: a Spring Boot REST API (JPA, validation, problem-details errors, tests) and a React dashboard for balances, card freeze & limits, filtered transaction history and money transfers.',
+    tech: ['Java 17', 'Spring Boot', 'JPA', 'React', 'Docker', 'Vercel'],
+    github: 'https://github.com/aoun02/payflow',
+    live: 'https://payflow-aoun.vercel.app',
+  },
+  {
     title: 'Developer Portfolio',
     description:
       'This website — a fast, responsive single-page portfolio with scroll animations, a code-editor hero and a pastel Catppuccin theme. Content is driven from a single data file.',

@@ -141,7 +141,7 @@ export function Projects() {
             <span className="project__folder mono">{'>_'}</span>
             <h3 className="project__title">More on the way</h3>
             <p className="project__desc">
-              Full stack apps with Spring Boot, .NET and React are being built and will appear here soon.
+              A .NET 8 MVC application is being built and will appear here soon.
             </p>
           </Reveal>
         </div>
