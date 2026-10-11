@@ -83,7 +83,7 @@ export const projects = [
       'Server-rendered ASP.NET Core MVC app for a factory floor: production dashboard, work-order workflow with validation, machine downtime tracking and inventory, backed by EF Core and covered by 19 unit and integration tests.',
     tech: ['.NET 10', 'ASP.NET Core MVC', 'EF Core', 'C#', 'Bootstrap', 'Docker'],
     github: 'https://github.com/aoun02/linepilot',
-    live: 'https://linepilot.vercel.app',
+    live: 'https://linepilot-aoun.vercel.app',
   },
   {
     title: 'Developer Portfolio',
