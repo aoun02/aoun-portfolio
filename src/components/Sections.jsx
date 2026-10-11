@@ -139,10 +139,13 @@ export function Projects() {
           ))}
           <Reveal className="card project project--soon" delay={projects.length * 90}>
             <span className="project__folder mono">{'>_'}</span>
-            <h3 className="project__title">More on the way</h3>
+            <h3 className="project__title">More on GitHub</h3>
             <p className="project__desc">
-              A .NET 8 MVC application is being built and will appear here soon.
+              Source code, READMEs and tests for every project live on my GitHub profile.
             </p>
+            <a className="btn btn--ghost" href={profile.github} target="_blank" rel="noreferrer">
+              <GitHubIcon /> github.com/aoun02
+            </a>
           </Reveal>
         </div>
       </div>

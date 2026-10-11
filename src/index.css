@@ -253,7 +253,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .skill--5 .skill__title { color: var(--peach); }
 
 /* projects */
-.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .project { padding: 26px; display: flex; flex-direction: column; }
 .project:hover { transform: translateY(-6px); border-color: var(--mauve); }
 .project__top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
@@ -265,6 +265,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .project__desc { color: var(--subtext); font-size: 0.93rem; margin: 0 0 18px; flex: 1; }
 .project--soon { border-style: dashed; }
 .project--soon .project__folder { margin-bottom: 18px; color: var(--overlay); }
+.project--soon .btn { align-self: flex-start; }
 
 /* contact */
 .contact__box { text-align: center; padding: 56px 28px; max-width: 720px; margin: 0 auto; }
@@ -294,7 +295,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
   .hero__summary { max-width: 640px; }
   .editor { max-width: 640px; }
   .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .skills, .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skills { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .section { padding: 84px 0; }
 }
 

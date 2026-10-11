@@ -78,6 +78,14 @@ export const projects = [
     live: 'https://payflow-aoun.vercel.app',
   },
   {
+    title: 'LinePilot — Manufacturing MES',
+    description:
+      'Server-rendered ASP.NET Core MVC app for a factory floor: production dashboard, work-order workflow with validation, machine downtime tracking and inventory, backed by EF Core and covered by 19 unit and integration tests.',
+    tech: ['.NET 10', 'ASP.NET Core MVC', 'EF Core', 'C#', 'Bootstrap', 'Docker'],
+    github: 'https://github.com/aoun02/linepilot',
+    live: 'https://linepilot.vercel.app',
+  },
+  {
     title: 'Developer Portfolio',
     description:
       'This website — a fast, responsive single-page portfolio with scroll animations, a code-editor hero and a pastel Catppuccin theme. Content is driven from a single data file.',
