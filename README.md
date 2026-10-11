@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Aoun Raza**, Full Stack Engineer (Java · Spring Boot · Kafka · .NET 8 · React · Flutter · Azure Kubernetes).
 
-🔗 **Live:** https://aoun-portfolio.vercel.app
+🔗 **Live:** https://aounraza.vercel.app
 
 ## Features
 

@@ -75,6 +75,6 @@ export const projects = [
       'This website — a fast, responsive single-page portfolio with scroll animations, a code-editor hero and a pastel Catppuccin theme. Content is driven from a single data file.',
     tech: ['React', 'Vite', 'CSS', 'Vercel'],
     github: 'https://github.com/aoun02/aoun-portfolio',
-    live: 'https://aoun-portfolio.vercel.app',
+    live: 'https://aounraza.vercel.app',
   },
 ]
