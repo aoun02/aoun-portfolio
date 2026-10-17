@@ -70,6 +70,14 @@ export const skills = [
 // Add a new object here whenever a project is deployed.
 export const projects = [
   {
+    title: 'StudyBuddy — RAG Study Assistant',
+    description:
+      'Retrieval-augmented study app: upload a PDF and chat with it (answers cite the exact chunks), get summaries and quizzes. A Spring Boot API owns the notes and vectors and calls a private Python FastAPI service for chunking, hybrid BM25 + embedding search and Gemini generation.',
+    tech: ['React', 'Spring Boot', 'Python', 'FastAPI', 'RAG', 'Gemini'],
+    github: 'https://github.com/aoun02/studybuddy',
+    live: 'https://studybuddy-aoun.vercel.app',
+  },
+  {
     title: 'PayFlow — Digital Wallet',
     description:
       'Full stack fintech app: a Spring Boot REST API (JPA, validation, problem-details errors, tests) and a React dashboard for balances, card freeze & limits, filtered transaction history and money transfers.',

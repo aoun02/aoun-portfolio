@@ -254,6 +254,8 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 
 /* projects */
 .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+/* With an even number of projects the "More on GitHub" card lands alone on its row, so let it span both columns. */
+.projects > .project--soon:nth-child(odd):last-child { grid-column: 1 / -1; }
 .project { padding: 26px; display: flex; flex-direction: column; }
 .project:hover { transform: translateY(-6px); border-color: var(--mauve); }
 .project__top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
